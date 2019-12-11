@@ -15,6 +15,10 @@ If your want to contribute please drop me a mail:
 
 The paper is also under development.
 
+Thanks to:
+
+benhoyt for the IniParser
+
 
 [octomap]: <https://octomap.github.io/>
 [iniparser]: <https://github.com/ndevilla/iniparser>

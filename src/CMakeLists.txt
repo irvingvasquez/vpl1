@@ -1,6 +1,6 @@
 # VPL1 SRC
 
-set(SRC_BASE rangesensor.cpp)
+set(SRC_BASE rangesensor.cpp vpfilereader.cpp)
 
 #set(SRC_STRUCTURES coctreevpl.cpp)
 #set(SRC_PARTIAL_MODEL partialmodelbase.cpp pmvolumetric.cpp pmvoctree.cpp pmvoctreeig.cpp pmvoctreeigkriegel12.cpp pmvoctreevasquez09.cpp pmvorearsidevoxel.cpp)
