@@ -13,8 +13,6 @@ project(apps)
 include_directories(${VPL1_SOURCE_DIR}/include)
 link_directories(${VPL1_SOURCE_DIR}/lib)
 set(LIB_VPL1 vpl1)
-  
-  
 
 message("Building vpl apps")
 
@@ -27,6 +25,8 @@ add_executable(check_range_sensor check_range_sensor.cpp)
 target_link_libraries(check_range_sensor ${LIBS_OCTOMAP} ${LIB_VPL1})
 
 
+add_executable(check_freeflyer check_freeflyer.cpp)
+target_link_libraries(check_freeflyer ${LIBS_OCTOMAP} ${LIB_VPL1})
 
 
 
